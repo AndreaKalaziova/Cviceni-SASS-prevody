@@ -75,5 +75,8 @@ body {
 	&:hover,
 	&:focus {
 		background-color: $action-barva;
-		}
+	}
+	@media (min-width: 600px) {
+		font-size: 20px;
+	}
 }
